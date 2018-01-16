@@ -18,6 +18,6 @@ class EmailParser
      email.split(" ")
      #binding.pry
    end
-  end
+ end.flatten
 
 end

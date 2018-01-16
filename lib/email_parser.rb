@@ -9,6 +9,7 @@ class EmailParser
   attr_accessor :email
 
   def initialized(emails)
+  end
 
   def parse
 

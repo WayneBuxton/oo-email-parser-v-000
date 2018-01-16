@@ -15,7 +15,7 @@ class EmailParser
 
   def parse
     if @emails == @emails.split(", ")
-      binding.pry
+      #binding.pry
       @emails.split(", ")
     end
 

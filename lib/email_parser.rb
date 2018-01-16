@@ -15,6 +15,7 @@ class EmailParser
 
   def parse
    @emails.split(" ").collect do |email|
+     email
      #binding.pry
    end
   end

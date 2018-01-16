@@ -16,7 +16,7 @@ class EmailParser
   def parse
     @emails.split(", ")
     @emails.gsub(", "," ")
-
+    binding.pry
   end
 
 end

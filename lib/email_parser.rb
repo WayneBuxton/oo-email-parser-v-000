@@ -7,7 +7,7 @@ require "pry"
 class EmailParser
 
   def parse
-    parser = EmailParser.new(emails)
+    parser = self.new(emails)
     #binding.pry
   end
 

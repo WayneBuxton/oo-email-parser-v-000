@@ -15,10 +15,11 @@ class EmailParser
 
   def parse
     emails = @emails.collect do |email|
+      binding.pry
     end
 
 
-    binding.pry
+
   end
 
 end

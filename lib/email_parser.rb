@@ -5,6 +5,6 @@ require "pry"
 # unique email addresses. The delimiters to support are commas (',')
 # or whitespace (' ').
 class EmailParser("avi@test.com, arel@test.com")
-binding.pry
+#binding.pry
 
 end

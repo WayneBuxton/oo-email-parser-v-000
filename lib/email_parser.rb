@@ -17,7 +17,7 @@ class EmailParser
     if @emails == @emails.split(", ")
       binding.pry
       @emails.split(", ")
-
+    end
 
   end
 

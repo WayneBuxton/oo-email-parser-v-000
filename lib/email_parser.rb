@@ -7,8 +7,8 @@ require "pry"
 class EmailParser
 
   def parse(emails)
-    
+    binding.pry
   end
-#binding.pry
+
 
 end

@@ -15,6 +15,7 @@ class EmailParser
 
   def parse
     @emails.split(", ")
+    @emails.gsub(", "," ")
 
   end
 

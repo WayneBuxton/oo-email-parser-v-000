@@ -6,4 +6,7 @@ require "pry"
 # or whitespace (' ').
 class EmailParser
 
+  def parse
+  end
+
 end

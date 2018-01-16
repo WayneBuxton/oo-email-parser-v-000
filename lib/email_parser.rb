@@ -4,4 +4,6 @@
 # or whitespace (' ').
 class EmailParser(emails)
 
+EmailParser :: EMAIL
+
 end

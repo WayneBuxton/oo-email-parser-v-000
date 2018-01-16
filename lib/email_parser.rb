@@ -6,8 +6,8 @@ require "pry"
 # or whitespace (' ').
 class EmailParser
 
-  def parse("avi@test.com, arel@test.com")
-    
+  def parse(emails)
+
   end
 
 end
